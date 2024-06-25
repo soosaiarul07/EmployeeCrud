@@ -1,4 +1,4 @@
-git Repo create and push:
+git Repo create and push: (First Time)
 
 git init
 
@@ -11,3 +11,10 @@ git branch -M main
 git remote add origin https://github.com/soosaiarul07/new.git
 
 git push -u origin main
+----------------------------------------------------------------------
+Push folder or new changed file to exist repo:
+
+git add .
+git commit -m "Some Changes"
+git push -u origin main
+----------------------------------------------------------------------
